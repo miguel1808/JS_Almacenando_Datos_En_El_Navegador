@@ -1,6 +1,6 @@
-import checkComplete from './checkComplete.js';
-import deleteIcon from './deleteIcon.js';
-import { displayTasks } from './readTasks.js';
+import checkComplete from '../components/checkComplete.js';
+import deleteIcon from '../components/deleteIcon.js';
+import { displayTasks } from '../components/readTasks.js';
 
 export const addTask = (evento) => {
   evento.preventDefault();

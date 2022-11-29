@@ -1,4 +1,4 @@
-import { displayTasks } from './readTasks.js';
+import { displayTasks } from '../components/readTasks.js';
 
 const deleteIcon = (id) => {
   const i = document.createElement('i');
